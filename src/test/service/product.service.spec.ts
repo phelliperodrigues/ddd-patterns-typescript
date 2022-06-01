@@ -1,5 +1,5 @@
-import Product from "../../entity/product";
-import ProductService from "../../service/product.service";
+import Product from "../../app/domain/entity/product";
+import ProductService from "../../app/domain/service/product.service";
 
 describe("Product Service", () => {
     it("should change the price of all products", () => {
