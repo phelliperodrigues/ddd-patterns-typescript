@@ -1,7 +1,7 @@
-import Customer from "../../app/domain/entity/customer";
-import Order from "../../app/domain/entity/order";
-import OrderItem from "../../app/domain/entity/order_item";
-import OrderService from "../../app/domain/service/order.service";
+import Customer from "../../../../app/domain/entity/customer";
+import Order from "../../../../app/domain/entity/order";
+import OrderItem from "../../../../app/domain/entity/order_item";
+import OrderService from "../../../../app/domain/service/order.service";
 
 describe("Order Service", () => {
     it("shoult get total of all orders", () => {
