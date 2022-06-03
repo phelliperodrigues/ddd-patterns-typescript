@@ -17,6 +17,10 @@ export default class OrderItem {
         return this._productId;
     }
 
+    get price(): number {
+        return this._price;
+    }
+
     constructor(
         id: string,
         name: string,
@@ -50,7 +54,7 @@ export default class OrderItem {
         }
     }
 
-    get price(): number {
+    total_item(): number {
         return this._price * this._quantity;
     }
 
